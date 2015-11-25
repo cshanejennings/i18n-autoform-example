@@ -1,3 +1,8 @@
 {
-    "title": "en:title english"
+    "title": "en:title english",
+    "schema-clubs": {
+        "name": {
+            "label": "en:Event Name"
+        }
+    }
 }

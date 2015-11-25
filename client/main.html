@@ -1,10 +1,13 @@
-<head>
-  <title>Internationalization Test</title>
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-</head>
-<body>
-	<div class="container">
-	    <h1>{{_ "title"}}</h1>
-    </div><!-- .container -->
-
-</body>
+	<head>
+	  <title>Leaderboard</title>
+	  <meta name="viewport" content="width=device-width, user-scalable=no">
+	</head>
+	<body>
+	    <div class="container">
+		    <h1>{{_ "title"}}</h1>
+		    <hr>
+		    {{#autoForm collection="Clubs" id="createEventForm" type="insert"}}
+		      {{> afQuickField template="bootstrap3-horizontal" label-class="col-sm-3" input-col-class="col-sm-9" name='name'}}
+		    {{/autoForm}}
+	    </div><!-- .container -->
+	</body>
