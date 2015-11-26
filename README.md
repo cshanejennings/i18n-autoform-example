@@ -14,4 +14,9 @@ for http://headspaced.com/meteor-internationalization-part-1/
 
 http://headspaced.com/meteor-internationalization-translating-autoform-fields/
 
+    git checkout 778b07b
+
+http://headspaced.com/translating-nested-schema-fields-in-meteors-autoform/
+
 current branch, no checkout necessary
+

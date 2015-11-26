@@ -3,6 +3,9 @@
     "schema-clubs": {
         "name": {
             "label": "en:Event Name"
+        },
+        "locations": {
+        	"label": "en:Locations"
         }
     }
 }

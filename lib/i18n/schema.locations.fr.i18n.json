@@ -1,0 +1,10 @@
+{
+    "schema-locations": {
+    	"state": {
+    		"label": "fr:State"
+    	},
+    	"city": {
+    		"label": "fr:City"
+    	}
+    }
+}
